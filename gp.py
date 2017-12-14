@@ -178,7 +178,7 @@ def gp():
 		plt.plot(mean)
 		plt.show()
 
-		#get the mean absolute error
+		#get the mean absolute error on the predicted values
 		mean_absolute_error(mean, Y_test)
 
 
